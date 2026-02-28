@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Mood Tracker</title>
+  <link rel="stylesheet" a href="style.css">
+</head>
+<body>
+
+  <div class="app">
+    <h1>Mood Tracker 😶‍🌫️</h1>
+    <p>Haiiii, gimana mood kamu hari ini?</p>
+
+<div class="moods">
+  <button data-mood="Senang">
+    <span class="emoji">😄</span>
+    <span class="label">Senang</span>
+  </button>
+  <button data-mood="B aja">
+    <span class="emoji">😐</span>
+    <span class="label">B aja</span>
+  </button>
+  <button data-mood="Sedih">
+    <span class="emoji">😭</span>
+    <span class="label">Sedih</span>
+  </button>
+  <button data-mood="Marah">
+    <span class="emoji">😡</span>
+    <span class="label">Marah</span>
+  </button>
+  <button data-mood="Capek">
+    <span class="emoji">😴</span>
+    <span class="label">Capek</span>
+  </button>
+</div>
+
+    <textarea id="note" placeholder="isi ya sayanggg apa yang kamu rasakan"></textarea>
+    <button id="save">Simpan Mood</button>
+
+    <h2>Riwayat Mood</h2>
+    <ul id="history"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
